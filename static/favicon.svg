@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Jackalope silhouette — rabbit with antlers -->
+  <g fill="#E95420">
+    <!-- Body -->
+    <ellipse cx="32" cy="44" rx="16" ry="12"/>
+    <!-- Head -->
+    <circle cx="38" cy="28" r="9"/>
+    <!-- Left ear -->
+    <ellipse cx="33" cy="14" rx="2.5" ry="9" transform="rotate(-10 33 14)"/>
+    <!-- Right ear -->
+    <ellipse cx="41" cy="13" rx="2.5" ry="9" transform="rotate(10 41 13)"/>
+    <!-- Left antler -->
+    <path d="M30 12 L26 4 L24 8 M26 4 L28 2" stroke="#E95420" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Right antler -->
+    <path d="M44 11 L48 3 L50 7 M48 3 L46 1" stroke="#E95420" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Tail -->
+    <circle cx="16" cy="40" r="4"/>
+  </g>
+</svg>

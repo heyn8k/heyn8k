@@ -1,0 +1,126 @@
+/* === Fonts === */
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/IntelOneMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('/fonts/MontserratAlternates-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('/fonts/MontserratAlternates-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Base === */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+  background-color: #faf7f2;
+  color: #2c2825;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* === Layout === */
+
+.page {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+}
+
+/* === Heading === */
+
+.heading {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.04em;
+  color: #E95420;
+  margin-bottom: 2rem;
+}
+
+/* === Bio === */
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2c2825;
+  margin-bottom: 3rem;
+}
+
+/* === Links === */
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.links a {
+  font-family: 'Intel One Mono', monospace;
+  font-size: 0.85rem;
+  color: #7a7268;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.15s ease;
+}
+
+.links a:hover {
+  color: #E95420;
+}
+
+.links a:visited {
+  color: #7a7268;
+}
+
+/* === Footer === */
+
+.rule {
+  border: none;
+  border-top: 1px solid #e5ddd4;
+  margin-top: 4rem;
+}

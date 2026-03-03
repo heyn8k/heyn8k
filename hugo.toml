@@ -1,0 +1,17 @@
+baseURL = 'https://heyn8k.dev/'
+languageCode = 'en-us'
+title = 'N8K'
+
+# No theme — layouts live at project level
+
+[params]
+  description = 'N8K — personal landing page'
+  author = 'N8K'
+
+# Disable unused taxonomy pages
+[taxonomies]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
