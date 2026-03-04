@@ -13,5 +13,9 @@ title = 'N8K'
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = false
     [markup.goldmark.renderer]
       unsafe = false
+      hardWraps = true
