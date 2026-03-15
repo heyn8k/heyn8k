@@ -2,6 +2,6 @@
 title: "N8K"
 ---
 
-Catholic by **creed.**
-Linux by **choice.**
+Catholic by **creed.**<br>
+Linux by **choice.**<br>
 Tech by **habit.**
