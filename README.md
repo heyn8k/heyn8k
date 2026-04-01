@@ -12,4 +12,4 @@ Some knowledge can only be found by exploring the same loops again and again, ea
     Brindle
 ```
 
-A small owl supervises this repo from the terminal. It judges silently, mostly.
+A small owl supervises this repo from the terminal. It judges.
